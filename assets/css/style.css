@@ -1,195 +1,192 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+    box-sizing: border-box;
+}
+
+body {
     color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-  }
-  
-  
-  /* HEADER / NAV BAR STYLES START */
-  
-  header {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    
+}
+
+/* apply styles to <header> */
+header {
     padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     font-weight: bold;
-    margin: 0;
     font-size: 36px;
     color: #fce138;
-  }
-  
-  header a {
+    margin: 0;
+}
+
+header a {
     text-decoration: none;
     color: #fce138;
-  }
-  
-  header nav {
+}
+
+header nav{
     margin: 7px 0;
-  }
-  
-  header nav ul {
+}
+
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-  }
-  
-  header nav ul li a {
-    margin: 0 30px;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-  }
-  
-  /* HEADER / NAVBAR STYLES END */
-  
-  
-  
-  /* FOOTER STYLES START */
-  footer {
+}
+
+footer {
     background: #fce138;
+    width: 100%;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
-  }
-  
-  footer h2 {
+}
+
+footer h2 {
     color: #024e76;
     font-size: 30px;
     margin: 0;
-  }
-  
-  footer div {
+}
+
+footer div {
     line-height: 1.5;
     text-align: right;
-  }
-  
-  footer a {
+}
+
+footer a {
     color: #024e76;
-  }
-  /* END FOOTER STYLES */
-  
-  /* STYLE ALL SECTION TAGS */
-  section {
+}
+
+section {
     padding: 60px;
-  }
-  
-  /* HERO STYLES START */
-  .hero {
-    background-image: url('../images/hero-bg.jpg');
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
-  
-  .hero-cta {
+    align-items: flex-start;
+}
+/* Hero Style End */
+
+.hero-cta {
     width: 35%;
     text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
-  }
-  
-  .hero-cta h2 {
+    line-height: 1.2;
+}
+
+.hero-cta h2 {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
-  }
-  
-  .hero-form {
+}
+
+.hero-form {
     border: 3px solid #024e76;
+    color: #024e76;
     background-color: #fce138;
     padding: 20px;
-    color: #024e76;
     width: 40%;
     margin: 3.5%;
-  }
-  
-  .hero-form h3 {
-    font-size: 24px;
-    margin: 0;
-  }
-  .hero-form p {
+}
+
+.hero-form p{
     margin: 5px 0 15px 0;
-  }
-  
-  .form-input {
+}
+
+.form-input {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
     color: #024e76;
     width: 100%;
-    margin-bottom: 15px; 
-  }
-  
-  .hero-form label {
+    margin-bottom: 15px;
+}
+
+.hero-form label{
     margin: 0 5px;
-  }
-  
-  .hero-form button {
+}
+
+.hero-form button{
     color: #fce138;
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-  } 
-  /* HERO STYLES END */
-  
-  
-  /* SECTION TITLE STYLES START */
-  .section-title {
-    font-size: 55px;
-    border-bottom: 3px solid;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.section-title {
+    font-size: 48px;
     color: #024e76;
+    border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
-  }
-  
-  .primary-border {
+}
+
+.primary-border {
     border-color: #fce138;
-  }
-  
-  .secondary-border {
+}
+
+.secondary-border {
     border-color: #39a6b2;
-  }
-  /* SECTION TITLE STYLES END */
-  
-  /* WHAT WE DO STYLES */
-  
-  .intro p {
+}
+
+.intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
-    margin: 0 auto;
     font-size: 20px;
+    margin: 0 auto;
     text-align: center;
-  }
-  /* WHAT YOU DO STYLES END */
-  
-  
-  /* WHAT YOU DO STYLES START */
-  .steps { 
+}
+
+.steps {
     background: #fce138;
-  }
-  
-  .step {
+}
+
+.step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
+.step {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
@@ -198,128 +195,124 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-  }
-  
-  .step h3 {
+}
+
+.step h3 {
     color: #024e76;
     font-size: 46px;
     flex: 1 30%;
-  }
-  
-  .step-info {
+}
+
+.step-info {
     flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-  }
-  
-  .step-img {
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step-img {
     flex: 1 12%;
     margin-right: 20px;
-  }
-  
-  .step-img img {
+}
+
+.step-img img {
     max-width: 100%;
-  }
-  
-  .step-text {
-    flex: 12;
-  }
-  
-  .step-text p {
-    color: #39a6b2;
-    font-size: 18px;
-  }
-  
-  .step-text h4 {
-    font-size: 26px;
-    line-height: 1.5;
-    color: #024e76;
-  }
-  
-  /* WHAT YOU DO STYLES END */
-  
-  /* MEET THE TRAINERS START */
-  .trainers {
+}
+
+.trainer {
+    margin: 20px;
+    background: #024e76;
+    color: #fce138;
+    flex: 1;
+}
+
+.trainer img {
+    width: 100%;
+}
+
+.trainer-bio {
+    padding: 25px;
+    line-height: 1.3;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.trainer-bio h3 {
+    font-size: 28px;
+}
+
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.trainer-bio p {
+    font-size: 17px;
+}
+
+.trainers {
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  
-  .trainer {
-    margin: 20px;
-    flex: 1;
+}
+
+.contact {
     background: #024e76;
-    color: #fce138;
-  }
-  
-  .trainer img {
-    width: 100%;
-  }
-  
-  .trainer-bio {
-    padding: 25px;
-    line-height: 1.3;
-  }
-  
-  .trainer-bio h3 {
-    font-size: 28px;
-  }
-  
-  .trainer-bio h4 {
-    font-weight: lighter;
-    font-size: 22px;
-    margin-bottom: 15px;
-  }
-  
-  .trainer-bio p {
-    font-size: 17px;
-  }
-  /* TRAINER STYLES END */
-  
-  /* REACH OUT STYLES START */
-  .contact {
-    background: #024e76;
-  }
-  
-  .contact h2 {
-    color: #fce138;
-  }
-  
-  .contact-info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .contact-info > * {
-    flex: 1;
-    margin: 15px;
-  }
-  
-  .contact-info iframe {
+}
+
+.contact h2 {
+    color: #fce138;  
+}
+
+.contact-info iframe {
     height: 400px;
-  }
-  
-  .contact-info div {
+}
+
+.contact-info div {
     color: white;
-  }
-  
-  .contact-info h3 {
+}
+
+.contact-info h3 {
     color: #fce138;
     font-size: 32px;
-  }
+}
   
-  .contact-info p, .contact-info address {
+.contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
-  }
+}
   
-  .contact-form input, .contact-form textarea {
+.contact-info a {
+    color: #fce138;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.contract-form input, .contract-form textarea {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -328,9 +321,9 @@
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
-  }
-  
-  .contact-form button {
+}
+
+.contact-form button {
     width: 100%;
     border: none;
     background: #fce138;
@@ -338,24 +331,40 @@
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
-  }
-  
-  .contact-info a {
-    color: #fce138;
-  }
-  
-  
-  /* REACH OUT STYLES END */
-  
-  /* UTILITIES */
-  .text-left {
+}
+
+.text-left {
     text-align: left;
-  }
-  
-  .text-right {
+}
+
+.text-right {
     text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header h1 a {
+      /* this will be applied on any screen smaller than 980px */
+      color: tomato;
+    }
   }
   
-  .flex-row {
-    display: flex;
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    header h1 {
+      /* this will be applied on any screen between 768px and 575px */
+      font-size: 80px;
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    header h1 {
+      /* this will be applied on any screen smaller than 575px */
+      font-size: 100px;
+    }
   }
