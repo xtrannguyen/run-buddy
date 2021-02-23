@@ -90,7 +90,7 @@ section {
 
 .hero-cta {
     width: 35%;
-    text-align: center;
+    text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
@@ -138,17 +138,9 @@ section {
     font-size: 16px;
 }
 
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.steps {
-    background: #fce138;
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
 }
 
 .section-title {
@@ -167,6 +159,19 @@ section {
 
 .secondary-border {
     border-color: #39a6b2;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.steps {
+    background: #fce138;
 }
 
 .step-text p {
@@ -206,6 +211,11 @@ section {
 
 .step-text {
     flex: 12;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
 }
 
 .step-img img {
@@ -267,16 +277,10 @@ section {
 }
 
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
 }
 
@@ -288,12 +292,52 @@ section {
 .contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
 }
   
 .contact-info a {
     color: #fce138;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.contract-form input, .contract-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .flex-row {
